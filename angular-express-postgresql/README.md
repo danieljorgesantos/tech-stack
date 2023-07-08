@@ -6,6 +6,16 @@ This stack allows good SEO, fast page rendering, solid performance and is overal
 
 1. The team only needs to know two languages, js and sql.
 2. Fast
+3. Safe with testing, and Typescript.
+4. Easy to publish.
+5. If you need it, good SEO.
+6. Good for backoffice SPAs and frontoffice SPAs.
+
+# Disadvantages of this stack
+
+1. Alot of boilerplate with ngrx.
+2. Added complexity.
+3. On the front, page might take time to be interactive.
 
 ## FRONT -- Angular 16 + Angular Universal
 
