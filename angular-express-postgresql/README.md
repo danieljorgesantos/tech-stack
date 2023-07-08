@@ -2,6 +2,11 @@
 
 This stack allows good SEO, fast page rendering, solid performance and is overall simple to use with the right architecture.
 
+# Advantages of this stack
+
+1. The team only needs to know two languages, js and sql.
+2. Fast
+
 ## FRONT -- Angular 16 + Angular Universal
 
 Angular is an ideal choice for building large and complex web applications.
