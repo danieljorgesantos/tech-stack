@@ -25,7 +25,7 @@ Angular is an ideal choice for building large and complex web applications.
 
 NgRx is a state management library for Angular applications that follows the Redux pattern. It provides a predictable and centralized approach to managing application state, enabling efficient data flow, separation of concerns, and ease of testing. NgRx incorporates concepts like actions, reducers, and selectors to handle state changes and facilitate a reactive and scalable architecture in Angular projects.
 
-## BACK -- Node + Express (Back)
+## BACK -- Node + Express
 
 Express is a fast and minimalist web application framework for Node.js, designed for building robust and scalable web applications with simplicity in mind. It provides a simple API for handling HTTP requests, routing, and middleware integration, making it a popular choice for developers.
 
