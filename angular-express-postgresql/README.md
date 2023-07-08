@@ -14,10 +14,10 @@ NgRx is a state management library for Angular applications that follows the Red
 
 Express is a fast and minimalist web application framework for Node.js, designed for building robust and scalable web applications with simplicity in mind. It provides a simple API for handling HTTP requests, routing, and middleware integration, making it a popular choice for developers.
 
-## PostgresSQL
-
-PostgreSQL is a powerful open-source relational database management system known for its reliability, extensibility, and advanced features. It offers strong support for SQL queries, ACID compliance, and a wide range of data types, making it a popular choice for both small-scale and enterprise-level applications.
-
 ### Connecting Directly With PG
 
 This approach will be the lowest-level: to connect directly to our database using the pg library.
+
+## (Database) PostgresSQL
+
+PostgreSQL is a powerful open-source relational database management system known for its reliability, extensibility, and advanced features. It offers strong support for SQL queries, ACID compliance, and a wide range of data types, making it a popular choice for both small-scale and enterprise-level applications.
