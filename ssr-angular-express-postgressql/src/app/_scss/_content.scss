@@ -1,0 +1,81 @@
+// File: _content.scss
+
+// Content Module
+// --------------
+// This module contains Typography styles, Images Styles,
+// Tables styles, and figure styles used in this application.
+
+// Typography Styles
+// --------------
+// These classes define styles for different typography elements.
+
+// Class: h1
+// Description: Represents a top-level heading.
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $text-color;
+}
+
+// Class: h2
+// Description: Represents a second-level heading.
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $text-color;
+}
+
+// Class: h3
+// Description: Represents a third-level heading.
+h3 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+// Class: h4
+// Description: Represents a fourth-level heading.
+h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+// Class: h5
+// Description: Represents a fifth-level heading.
+h5 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+// Class: h6
+// Description: Represents a sixth-level heading.
+h6 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+// Class: p
+// Description: Represents a paragraph.
+p {
+    line-height: 1.69;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}

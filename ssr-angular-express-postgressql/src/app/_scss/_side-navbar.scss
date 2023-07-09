@@ -1,0 +1,67 @@
+// File: _side-navbar.scss
+
+// Side NavBar Module
+// -----------------
+// This module contains styles for the side navigation bar.
+
+// Navbar
+// ------
+// Block: .navbar
+// Description: Represents the container for the navbar.
+.navbar {
+
+    width: 18rem;
+    height:100vh;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    overflow-y: auto;
+    background: $side-navbar-background;
+
+    // Navbar Logo
+    // ------------
+    // Element: .navbar__logo
+    // Description: Represents the logo within the navbar.
+    &__logo {
+        padding-left: 0.5rem;
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        color: $navbar-text-muted-color;
+        text-decoration: inherit;
+
+        // Logo Text
+        // ------------
+        // Element: .navbar__logo__text
+        // Description: Represents a text within the logo.
+        &__text {
+            padding-top:0.1rem;
+            font-size: 1.45rem;
+            font-weight: 600;
+        }
+    }
+
+    // Navbar Link
+    // ------------
+    // Element: .navbar__navigation
+    // Description: Represents ul navigation within the navbar.
+    &__navigation {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        // Navbar Link
+        // ------------
+        // Element: .navbar__link
+        // Description: Represents a link within the navbar.
+        &__link {
+            color: white;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}

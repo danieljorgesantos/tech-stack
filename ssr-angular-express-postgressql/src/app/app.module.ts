@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 // component imports
 import { AppComponent } from './app.component';
 import { NavigationSideComponent } from './navigation-side/navigation-side.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationSideComponent
+    NavigationSideComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
