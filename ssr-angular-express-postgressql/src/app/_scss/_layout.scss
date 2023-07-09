@@ -1,16 +1,15 @@
-// File: _content.scss
+// File: _layout.scss
 
-// Content Module
+// Layout Module
 // --------------
-// This module contains Typography styles, Images Styles,
-// Tables styles, and figure styles used in this application.
+// This module contains the layout styles for the application.
 
-// Typography Styles
+// Container Styles
 // --------------
-// These classes define styles for different typography elements.
+// These classes define styles for different container elements.
 
-// Class: h1
-// Description: Represents a top-level heading.
+// Class: .page-container
+// Description: Represents the page container.
 .page-container {
     max-width: 70rem;
     margin: 0 auto;
@@ -24,26 +23,26 @@
     }
 }
 
-// Class: h1
+// Class: .container
 // Description: Represents a top-level heading.
 .container {
     display: flex;
     height: 100vh; // Set the container height to fill the entire viewport
 }
 
-// Class: h1
+// Class: .section-1
 // Description: Represents a top-level heading.
 .section-1 {
     width: 16rem; // Fixed width of the first section
 }
 
-// Class: h1
+// Class: .section-2
 // Description: Represents a top-level heading.
 .section-2 {
     flex: 1; // Let the second section fill the remaining space
 }
 
-// Class: h1
+// Class: .page
 // Description: Represents a top-level heading.
 .page {
     padding-left: 1.5rem;

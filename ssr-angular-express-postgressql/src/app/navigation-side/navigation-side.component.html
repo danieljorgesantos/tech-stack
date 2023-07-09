@@ -1,41 +1,58 @@
 <aside class="navbar">
     <a class="navbar__logo">
-
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="h-6 mr-3 sm:h-7">
-            <path fill="#0883d9"
-                d="M36.232,23.985c0-5.865,4.766-8.51,4.966-8.636c-2.596-3.993-6.79-4.467-8.362-4.468	c-3.643,0-6.863,2.022-8.585,2.022c-1.797,0-4.418-2.121-7.363-2.022c-3.843,0.075-7.363,2.346-9.334,5.691	c-1.397,2.396-1.947,5.217-1.896,8.087c0.002,0.113,0.017,0.228,0.02,0.341H36.32C36.279,24.671,36.243,24.337,36.232,23.985z" />
-            <path fill="#0883d9"
-                d="M30.565,7.063C32.261,5.191,33.21,2.621,33.06,0c-2.346,0-5.066,1.372-6.788,3.394	c-1.348,1.672-2.795,4.293-2.271,6.913C26.422,10.607,29.043,9.085,30.565,7.063z" />
-            <path fill="#0370c8"
-                d="M17.511,45c2.771,0,3.794-1.848,7.413-1.848c3.37,0,4.418,1.848,7.338,1.848	c3.07,0,5.092-2.795,6.913-5.567c2.295-3.218,3.07-6.288,3.169-6.414c-0.094,0-5.287-2.112-6.026-8.019H5.678	c0.157,5.311,2.228,10.79,4.671,14.309C12.27,42.055,14.441,45,17.511,45z" />
-        </svg> -->
-
         <img style="height:2.5rem; margin-right: 1rem;"
             src="data:image/png;base64,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">
-
         <span class="navbar__logo__text">Polar Bear</span>
     </a>
 
-
-
-
-    <p>
+    <!-- <p>
         main
-    </p>
+    </p> -->
 
     <ul class="navbar__navigation">
-        <li class="navbar__navigation__link">Overview</li>
-        <li class="navbar__navigation__link">Contacts</li>
+        <li>
+            <a href="#" class="navbar__navigation__link">
+                <svg aria-hidden="true"
+                    class="w-6 h-6"
+                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
+                    <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
+                </svg>
+                <span class="ml-3">Dashboard</span>
+            </a>
+        </li>
+        <li class="navbar__navigation__link">
+        <li>
+            <a routerLink="/TrendsComponent" class="navbar__navigation__link">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="flex-shrink-0 w-6 h-6">
+                    <path fill-rule="evenodd"
+                        d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                        clip-rule="evenodd" />
+                </svg>
+
+                <span class="flex-1 ml-3 whitespace-nowrap">Contacts</span>
+                <span
+                    class="inline-flex items-center justify-center w-3 h-3 p-3 ml-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 ">0</span>
+            </a>
+        </li>
     </ul>
 
 
 
     <div class="navbar__footer">
-        <div>
-            1
+        <div class="navbar__footer__avatar-container">
+            <img class="avatar navbar__footer__avatar-container__avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
+
+            <div>
+                <p class="navbar__footer__avatar-container__text navbar__footer__avatar-container__text__title">Tim Cook</p>
+                <p class="navbar__footer__avatar-container__text navbar__footer__avatar-container__text__subtitle">Director of Operations</p>
+            </div>
+
         </div>
         <div>
-            2
+            <p>Settings</p>
         </div>
     </div>
 

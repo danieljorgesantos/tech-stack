@@ -79,3 +79,14 @@ p {
     margin-bottom: 1rem;
     font-size: 1rem;
 }
+
+// Image Styles
+// --------------
+// These classes define styles for different display elements.
+
+.avatar {
+    border-radius: 9999px;
+    width: 3.5rem;
+    height: 3.5rem;
+    max-width: 100%;
+}

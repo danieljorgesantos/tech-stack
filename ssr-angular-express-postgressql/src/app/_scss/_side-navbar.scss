@@ -11,7 +11,7 @@
 .navbar {
 
     width: 18rem;
-    height:100vh;
+    height: 100vh;
     padding-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 0.75rem;
@@ -28,7 +28,7 @@
         margin-bottom: 1.25rem;
         display: flex;
         align-items: center;
-        color: $navbar-text-muted-color;
+        color: $navbar-logo-color;
         text-decoration: inherit;
 
         // Logo Text
@@ -36,7 +36,7 @@
         // Element: .navbar__logo__text
         // Description: Represents a text within the logo.
         &__text {
-            padding-top:0.1rem;
+            padding-top: 0.1rem;
             font-size: 1.45rem;
             font-weight: 600;
         }
@@ -50,17 +50,53 @@
         list-style: none;
         margin: 0;
         padding: 0;
+        height: 72vh;
 
         // Navbar Link
         // ------------
         // Element: .navbar__link
         // Description: Represents a link within the navbar.
         &__link {
-            color: white;
+            color: $navbar-text-main-color;
             border-radius: 0.5rem;
             padding: 0.5rem;
             display: flex;
             align-items: center;
+        }
+    }
+
+    // Navbar Footer
+    // ------------
+    // Element: .navbar__footer
+    // Description: Represents the navbar footer with the avatar, settings and logout.
+    &__footer {
+        background: $html-body-background;
+        border-radius: $main-border-radius;
+        padding: 1rem;
+        padding-top: 0.75rem;
+        color: $navbar-text-main-color;
+        // background: red;
+
+        &__avatar-container {
+            display: flex;
+            align-items: center;
+
+            &__avatar {
+                margin-right: 1rem;
+            }
+
+            &__text {
+                padding: 0;
+                margin: 0;
+
+                &__title {
+                    color: $navbar-text-muted-color;
+                }
+
+                &__subtitle {
+                    color: $navbar-text-main-color;
+                }
+            }
         }
     }
 
