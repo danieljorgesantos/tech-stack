@@ -86,7 +86,7 @@
 
             // Navbar Footer Link
             // ------------
-            // Element: .navbar__navigation__link__counter
+            // Element: .navbar__navigation__link__footer-link
             // Description: Represents the navbar footer links.
             &__footer-link {
                 background: $side-navbar-background;
@@ -95,9 +95,22 @@
                 align-items: center;
                 justify-content: center;
 
+                // Navbar Footer Link small button
+                // ------------
+                // Element: .navbar__navigation__link__footer-link__sm
+                // Description: Represents the navbar footer links small button.
                 &__sm {
                     width: 2.6rem;
                     height: 2.6rem;
+                }
+
+                // Navbar Footer Link Logout button.
+                // ------------
+                // Element: .navbar__navigation__link__footer-link__logout-button
+                // Description: Represents the navbar footer links logout button.
+                &__logout-button {
+                    padding-left: 1rem;
+                    padding-right: 1.5rem;
                 }
             }
         }
